@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+}
+
+.chicken {
+  margin-top: 0%;
+  float: right;
+  width: 120px;
+  text-align: center;
+  border-style: solid;
+  border-width: 0px 0px 2px 2px;
+  background-color: rgb(226, 178, 106);
+}
+.beef {
+  margin-top: 0%;
+  float: right;
+  width: 120px;
+  text-align: center;
+  border-style: solid;
+  border-width: 0px 0px 2px 2px;
+  background-color: red;
+}
+.sushi {
+  margin-top: 0%;
+  float: right;
+  width: 120px;
+  text-align: center;
+  border-style: solid;
+  border-width: 0px 0px 2px 2px;
+  background-color: rgb(228, 194, 150);
+}
+
+.p {
+  padding: 5px;
+  /* border-width: 10px; */
+}
+.b {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+@media (min-width: 992px) {
+  #d1,
+  #d2,
+  #d3 {
+    padding: auto;
+  }
+
+  #d1 {
+    width: 33.3%;
+    float: left;
+  }
+  #d2 {
+    width: 33.3%;
+    float: right;
+  }
+  #d3 {
+    width: 33.3%;
+    float: right;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .s1,
+  .s2,
+  .s3 {
+    padding: auto;
+  }
+  #d1,
+  #d2,
+  #d3 {
+    padding: auto;
+  }
+  #d1 {
+    width: 50%;
+    float: left;
+  }
+  #d2 {
+    width: 50%;
+    float: right;
+  }
+  #d3 {
+    width: 100%;
+    float: right;
+  }
+}
+
+@media (max-width: 767px) {
+  #d1,
+  #d2,
+  #d3 {
+    width: 100%;
+    background-color: lightcyan;
+  }
+  .s1,
+  .s2,
+  .s3 {
+    padding: auto;
+    margin: 10px;
+  }
+}
